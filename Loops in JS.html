@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+            font-size: medium;
+            font-family: cursive;
+            background-color: lightpink;
+            color: aliceblue;
+        }
+
+         .potato{
+            text-align: center;
+             color: aliceblue;
+            font-family: cursive;
+            
+        }
+</style>
+<body>
+    <h2 class="potato">JavaScript for loops</h2>
+    <p id="demo"></p>
+
+     <img src="https://static.wikitide.net/peppafanonwiki/f/fc/Daddy_Pig.png"
+             alt="Daddy Pig">
+             <width> "2"</width>
+             <height>"9"</height>
+<script>
+        var peppa = ["Peppa","George","Mummy pig","Daddy pig","Sussy Sheep","Rebecca Rabbit"];
+        var text = "";
+        var i;
+        for (i = 0;i < peppa.length; i++){
+            text += peppa[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+</script>    
+</body>
+</html>
