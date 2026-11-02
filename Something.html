@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #5d7fc2;
+      color: #222222;
+      text-align: center;
+    }
+
+    h1{
+        color: aliceblue;
+    }
+
+    button{
+        background-color: rgb(255, 255, 255);
+        color: rgb(159, 204, 255);
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <h1>Daddy Pig is cool</h1>
+
+    <button onclick="showVideo('7fK1ocz25J0')">Genshin Impact</button>
+    <button onclick="showVideo('5dvybK-820k')">Minecraft</button>
+    <button onclick="showVideo('Iht1z8kpQRA')">Crochet</button>
+    <button onclick="showVideo('M8tTwGbc9qE')">Roblox</button>
+    <button onclick="showVideo('y3GJeUpzT6g')">Art</button>
+    <button onclick="showVideo('sTz9X9glP8E')">Viyura</button>
+    <button onclick="showVideo('plSyrHqUh78')">Animation</button>
+    <button onclick="showVideo('bRrjcdad2Zg')">Katseye</button>
+    <button onclick="showVideo('V2V9-9VhYJo')">Illit</button>
+
+
+
+    <div id="video"></div>
+
+    <script>
+           function showVideo(id) {
+            document.getElementById("video").innerHTML =
+            '<iframe width="400" height="250" src="https://www.youtube.com/embed/' + id + '" allowfullscreen></iframe>';
+        }
+    </script>
+
+
+
+    
+
+
+
+
+</body>
+</html>
+
